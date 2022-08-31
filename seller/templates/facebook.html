@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table width="100%" cellspacing="0" border="0">
+        <tr bgcolor="#3b5998">
+            <td><img src="images/fb_logo.webp" alt="" height="100"></td>
+            <td valign="center" align="right"><input type="text">
+                <input type="text">
+                <input type="button" value="login">
+            </td><br>
+        </tr>
+        <tr>
+            <td>
+                <table border="0">
+                    <tr>
+                        <h1>connect with friends and the world around you on facebook</h1>
+                    </tr>
+                    <tr>
+                        <td> <img
+                                src="{% static 'images/feed.png'%}"
+                                alt="" height="50" width="">
+                        </td>
+                        <td>
+                            <h2>see photos and updates from friends in news feed</h2>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>image</td>
+                        <td> <h3>share whats new in your life on your timeline</h3></td>
+                       
+                    </tr>
+                    <tr>
+                        <td>image</td>
+                        <td> <h4>find more of what you are looking for with graph search</h4></td>
+                       
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                <table border="0">
+                    <tr>
+                        <h1 align="center">SignUp</h1>
+                    </tr>
+                    <tr>
+                        <input type="text" placeholder="first name" size="20">
+                        <input type="text" placeholder="last name" size="30">
+                    </tr><br><br>
+                    <tr>
+                        <input type="text" placeholder="mobile number" size="50">
+                    </tr><br><br>
+                    <tr>
+                        <input type="email" placeholder="email" size="50">
+                    </tr><br><br>
+                    <tr>
+                        <input type="text" placeholder="password" size="50">
+                    </tr><br><br>
+                    <tr>
+                        by clicking sign up you agree to our terms and that you have read our data use policy and
+                        include our cookie use
+                    </tr><br>
+                    <img src="{% static 'images/signup.jpg'%}" alt="" width="145px" height="45px">
+                </table>
+            </td>
+
+
+        </tr>
+
+
+    </table>
+
+
+    <!-- <tr>
+        <td valign="top" align="center"><br>
+            <table border="0" width="80%">
+        </td>
+    </tr> -->
